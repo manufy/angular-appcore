@@ -10,6 +10,7 @@ import { FooterComponent } from './shell/footer/footer.component';
   imports: [
     CommonModule
   ],
-  declarations: [ShellComponent, HeaderComponent, MainComponent, FooterComponent]
+  declarations: [ShellComponent, HeaderComponent, MainComponent, FooterComponent],
+  exports: [ShellComponent]
 })
 export class CoreModule { }
