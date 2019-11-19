@@ -1,6 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-const routes: Routes = [];
+
+import { TemporalComponent } from './1-temporal/temporal.component'
+
+const routes: Routes = [
+
+
+  
+];
 
 
 @NgModule({
